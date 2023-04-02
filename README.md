@@ -20,3 +20,4 @@ The bot also responds to specific messages that contain certain keywords:
 - "time": Returns the current date and time.
 - "date": Returns the current date.
 - "name": Returns a message with the bot's name.
+- "joke": Returns a random joke.
