@@ -9,7 +9,7 @@ async def GetJokeFromAPI():
     j = await Jokes()
 
     # Retrieve a random joke
-    joke = await j.get_joke()
+    joke = await j.get_joke(category="Programming")
 
     text = ""
     if joke["type"] == "single":
